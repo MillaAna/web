@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  background-color: #111;
+  color: #fff;
+}
+
+
+.punk-text {
+  font-size: 2.5rem;
+  color: #fc3a9b;
+  text-shadow: 0 0 5px #ff007f, 0 0 15px #ff007f, 0 0 30px #ff007f;
+}
+
+
+.punk-link {
+  font-weight: bold;
+  color: #0ff !important;
+}
+
+
+.punk-link:hover {
+  color: #ff007f !important;
+  text-shadow: 0 0 5px #ff007f;
+}
+
+
+.graffiti-bg {
+  background-image: url('graffiti-texture.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.graffiti-frame {
+  border: 2px dashed #ff007f;
+  padding: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.graffiti-frame:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff007f, 0 0 40px #0ff;
+}
+
+
+.graffiti-input {
+  border: 2px solid #ff007f;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.graffiti-input:focus {
+  border-color: #0ff;
+  box-shadow: 0 0 5px #0ff;
+}
+
+
+.btn-neon {
+  background-color: #ff007f;
+  color: #fff;
+  border: 2px solid #0ff;
+  text-shadow: 0 0 5px #000, 0 0 10px #000;
+}
+
+
+.btn-neon:hover {
+  background-color: #0ff;
+  color: #000;
+}
+.carousel-inner h3 {
+    color: #ff007f;
+    text-shadow: 0 0 5px #ff007f, 0 0 15px #0ff;
+    margin-bottom: 1rem;
+  }
+ 
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #ff007f;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px #ff007f, 0 0 20px #0ff;
+  }
+ 
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #0ff;
+    box-shadow: 0 0 15px #0ff, 0 0 30px #ff007f;
+  }
+ 
+  .carousel-inner ul {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0;
+    list-style-type: none;
+  }
+ 
+  .carousel-inner li {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #ff007f;
+  }
